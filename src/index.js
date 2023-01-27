@@ -19,8 +19,6 @@ navBar.innerHTML = `
 //homepage
 const myHeroImg = new Image();
 myHeroImg.src = heroImage;
-console.log(myHeroImg);
-console.log(heroImage);
 const homePage = document.createElement('div');
 homePage.classList.add('home');
 homePage.innerHTML = `
