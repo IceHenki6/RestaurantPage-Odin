@@ -1,0 +1,30 @@
+#contact-container{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+#contact-board{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align:start;
+    width: 60%;
+    height: 70%;
+    gap: .8em;
+}
+
+#contact-board h1{
+    font-size: 40px;
+    font-weight: 700;
+    /* margin-bottom: 10px; */
+}
+
+.contact-list{
+    list-style: circle;
+}
