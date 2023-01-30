@@ -23,8 +23,8 @@ const homePage = document.createElement('div');
 homePage.classList.add('home');
 homePage.innerHTML = `
     <div id="restaurant-title">
-        <h1 id="restaurant-name">Cacho's Bodegon</h1>
-        <h3 id="restaurant-description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolores, porro!</h3>
+        <h1 id="restaurant-name">Cacho's Bodegón</h1>
+        <h3 id="restaurant-description">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</h3>
     </div>
     <div id="restaurant-image">
         <img src = ${myHeroImg.src}  alt="">
